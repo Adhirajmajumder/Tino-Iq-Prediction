@@ -1,0 +1,10 @@
+Use historical_data file
+
+Using symbol.date_txn and close_price, you have to predict- predicted_price
+
+Then we measure accuracy using following:
+
+For each symbol calculate:
+X = Median of  (predicted_price-close_price)/close_price
+
+Final_accuracy = Average of X
